@@ -2553,6 +2553,11 @@ section {
 				width: 100%;
 			}
 
+			.image.dailies img {
+				display: block;
+				width: 65%;
+			}
+
 /* List */
 
 	ol {
