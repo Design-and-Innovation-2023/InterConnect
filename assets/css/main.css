@@ -28,6 +28,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		scroll-padding-top: 4rem;
 	}
 
 	article, aside, details, figcaption, figure,
@@ -2034,6 +2035,9 @@ main > nav {
 /* Sidebar Navigation */
 .section-nav {
 	padding-left: 0;
+	padding-top: 25%;
+	position: sticky;
+	top: 0;
 	border-left: 1px solid #efefef;
 }
 
@@ -2080,7 +2084,7 @@ main {
 
 /** enlarge the sections for this demo, so that we have a long scrollable page **/
 section {
-	padding-bottom: 20rem;
+	padding-bottom: 1rem;
 }
 
 /* Section/Article */
