@@ -48,21 +48,23 @@
 			<header>
 				<h2>Dailies</h2>
 			</header>
+			<div class="row">
+				<div class="col-10">
 			<div class="box">
 				<div class="timeline">
 					<div class="timeline__group">
-						<span class="timeline__year time" aria-hidden="true">Week 3</span>
+						<span id="week3" class="timeline__year time" aria-hidden="true">Week 3</span>
 						<div class="timeline__cards">
 							<div class="timeline__card card">
 								<header class="card__header">
 									<time class="time" datetime="2008-02-02">
-										<span class="time__day">1</span>
+										<span id="1aug" class="time__day">1</span>
 										<span class="time__month">Aug</span>
 									</time>
 								</header>
 								<br />
 								<div class="card__content">
-									<div class="col-8">
+									<div id="" class="col-8">
 										<p>
 											Dallies for August 1: <br />
 											The team completed the figma prototypes for the tag team and relay race
@@ -145,7 +147,7 @@
 							<div class="timeline__card card">
 								<header class="card__header">
 									<time class="time" datetime="2008-09-01">
-										<span class="time__day">31</span>
+										<span id="31jul" class="time__day">31</span>
 										<span class="time__month">Jul</span>
 									</time>
 								</header>
@@ -242,12 +244,12 @@
 						</div>
 					</div>
 					<div class="timeline__group">
-						<span class="timeline__year time" aria-hidden="true">Week 2</span>
+						<span id="week2" class="timeline__year time" aria-hidden="true">Week 2</span>
 						<div class="timeline__cards">
 							<div class="timeline__card card">
 								<header class="card__header">
 									<time class="time" datetime="2008-07-14">
-										<span class="time__day">29</span>
+										<span id="29jul" class="time__day">29</span>
 										<span class="time__month">Jul</span>
 									</time>
 								</header>
@@ -313,7 +315,7 @@
 									<br /><br />Some of the screenshot are here:
 
 									<ol>
-										<li>Online meeting platform (GoBranch)
+										<li>Online meeting platform (GoBrunch)
 											<div class="card__content">
 												<div class="col-4">
 													<span class="image dailies"><img src="images/dailies/29jul_1.jpeg"
@@ -415,7 +417,7 @@
 							<div class="timeline__card card">
 								<header class="card__header">
 									<time class="time" datetime="2008-08-18">
-										<span class="time__day">28</span>
+										<span id="28jul" class="time__day">28</span>
 										<span class="time__month">Jul</span>
 									</time>
 								</header>
@@ -459,7 +461,7 @@
 							<div class="timeline__card card">
 								<header class="card__header">
 									<time class="time" datetime="2008-08-18">
-										<span class="time__day">26</span>
+										<span id="26jul" class="time__day">26</span>
 										<span class="time__month">Jul</span>
 									</time>
 								</header>
@@ -530,7 +532,7 @@
 							<div class="timeline__card card">
 								<header class="card__header">
 									<time class="time" datetime="2008-08-18">
-										<span class="time__day">25</span>
+										<span id="25jul" class="time__day">25</span>
 										<span class="time__month">Jul</span>
 									</time>
 								</header>
@@ -577,7 +579,7 @@
 							<div class="timeline__card card">
 								<header class="card__header">
 									<time class="time" datetime="2008-08-18">
-										<span class="time__day">24</span>
+										<span id="24jul" class="time__day">24</span>
 										<span class="time__month">Jul</span>
 									</time>
 								</header>
@@ -626,12 +628,12 @@
 						</div>
 					</div>
 					<div class="timeline__group">
-						<span class="timeline__year time" aria-hidden="true">Week 1</span>
+						<span id="week1" class="timeline__year time" aria-hidden="true">Week 1</span>
 						<div class="timeline__cards">
 							<div class="timeline__card card">
 								<header class="card__header">
 									<time class="time" datetime="2008-08-18">
-										<span class="time__day">21</span>
+										<span id="21jul" class="time__day">21</span>
 										<span class="time__month">Jul</span>
 									</time>
 								</header>
@@ -718,7 +720,7 @@
 							<div class="timeline__card card">
 								<header class="card__header">
 									<time class="time" datetime="2008-08-18">
-										<span class="time__day">20</span>
+										<span id="20jul" class="time__day">20</span>
 										<span class="time__month">Jul</span>
 									</time>
 								</header>
@@ -770,7 +772,7 @@
 							<div class="timeline__card card">
 								<header class="card__header">
 									<time class="time" datetime="2008-08-18">
-										<span class="time__day">19</span>
+										<span id="19jul" class="time__day">19</span>
 										<span class="time__month">Jul</span>
 									</time>
 								</header>
@@ -832,7 +834,7 @@
 							<div class="timeline__card card">
 								<header class="card__header">
 									<time class="time" datetime="2008-08-18">
-										<span class="time__day">18</span>
+										<span id="18jul" class="time__day">18</span>
 										<span class="time__month">Jul</span>
 									</time>
 								</header>
@@ -872,6 +874,34 @@ We would then prepare for tomorrow’s meeting with the client for further infor
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="col-2">
+			<nav class="section-nav">
+				<ol>
+					<li><a href="#week3">Week 3</a></li>
+					<ul>
+						<li class=""><a href="#1aug">1 Aug</a></li>
+						<li class=""><a href="#31jul">31 Jul</a></li>
+					</ul>
+					<li><a href="#week2">Week 2</a></li>
+						<ul>
+							<li class=""><a href="#29jul">1 Aug</a></li>
+							<li class=""><a href="#28jul">28 Jul</a></li>
+							<li class=""><a href="#26jul">26 Jul</a></li>
+							<li class=""><a href="#25jul">25 Jul</a></li>
+							<li class=""><a href="#24jul">24 Jul</a></li>
+						</ul>
+					<li><a href="#week1">Week 1</a></li>
+					<ul>
+						<li class=""><a href="#21jul">21 Jul</a></li>
+						<li class=""><a href="#20jul">20 Jul</a></li>
+						<li class=""><a href="#19jul">19 Jul</a></li>
+						<li class=""><a href="#18jul">18 Jul</a></li>
+					</ul>
+				</ol>	
+			</nav>
+			</div>
+	</div>
 		</section>
 
 		<!-- Footer -->
